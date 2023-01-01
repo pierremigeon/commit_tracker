@@ -1,4 +1,4 @@
-e5b085a return to project after several month absence, working on updates now
+30dd796 return to project after several month absence, work on completing debugging and testing for cd and echo functions
 3422e80 Fix test case #23 ^cd "\"''" $
 94fb29d when a real directory is entered as a command, then the terminal states that it is a directory
 a0b90b9 adding a file to a commit
