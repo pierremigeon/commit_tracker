@@ -1,4 +1,4 @@
-bac047b Debug and polish %GC
+f7a478e Continue to improve %GC graphs, debug polish function so that it works correctly and correctly extends all ATCGN arrays to match length of the longest array
 ba7c7c4 Refactor %GC and debug
 56c075a Polish graphs, get %GC graph working
 2a7ddc1 debug until graphs start showing
