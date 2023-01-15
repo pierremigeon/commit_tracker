@@ -1,4 +1,4 @@
-4b4fef6 split program into modules
+3f04862 Split program into src modules
 372783b Refactor, improve format and comments, organize code
 2acc9af Continue to improve %GC graphs, debug polish function so that it works correctly and correctly extends all ATCGN arrays to match length of the longest array
 ba7c7c4 Refactor %GC and debug
