@@ -7,3 +7,5 @@ This is repo is strictly for the purpose of tracking commits, so that I can get 
 </p>
 
 *another green-ish square...*
+
+I believe that by tracking my daily adherance to some minimal output metric it will be easier for me to maintain a consistent programming habit. This will also promote a more strictly atomic commit format for my work by encouraging smaller more incremental units of work output.

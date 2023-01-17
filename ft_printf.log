@@ -1,3 +1,4 @@
+4af6736 correctly print null character for %c and '\0' cases
 024a2eb write additional float tests
 f34c88b debug testing suite to correctly output tests that fail based on string comparison
 52d2089 update test suite, write python script to reformat test cases
