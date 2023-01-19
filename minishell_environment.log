@@ -1,3 +1,4 @@
+666e536 throw error if var name not start with alpha char or _
 744a386 Return error message if illegal characters found in setenv variable name
 e62d1c0 Merge branch 'cd-bug-fix'
 6836996 correct the 'cd' standalone bug- prevent /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin erasure
