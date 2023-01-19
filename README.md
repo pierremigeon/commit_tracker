@@ -4,7 +4,7 @@ This is repo is strictly for the purpose of tracking commits, so that I can get 
 
 log files follow this format:
 ```
-ProjectName_BranchName.log
+ProjectName::BranchName.log
 ```
 
 <p align="center">
