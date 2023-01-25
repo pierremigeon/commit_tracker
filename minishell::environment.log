@@ -1,3 +1,4 @@
+4047bd9 include header file changes
 dbc21a3 rework first argument (variable name) to throw correct errors for quotations within the argument name
 00234c3 Add setenv usage statement returned for -h flag
 5af91c4 Make quotation marks in setenv variable name either unclosed or non-alphanumeric error and require variables to start with alphabetical characters"
