@@ -4,7 +4,7 @@ This is repo is strictly for the purpose of tracking commits, so that I can get 
 
 files follow this format:
 ```
-#log files containing commit messages::
+#log files containing commit messages:
 ProjectName::BranchName.log
 
 #data files containing file/insertion/deletion information for each commit:
