@@ -1,3 +1,4 @@
+211c7e4 include header file changes and commit data summary script
 570c1a8 include header file changes and commit data summary script
 dbc21a3 rework first argument (variable name) to throw correct errors for quotations within the argument name
 00234c3 Add setenv usage statement returned for -h flag
