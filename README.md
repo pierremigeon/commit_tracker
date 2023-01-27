@@ -2,9 +2,13 @@
 ### Commit tracker
 This is repo is strictly for the purpose of tracking commits, so that I can get those sweet sweet green boxes on my github profile when I'm making commits to forked repos. Full disclosure, this directory is updated for any commits that I make, even without pushing those commits to this remote. It's still a measure of my productivity, but it's definitely not completely consistent with github's standard for this metric. It's actually a broader measure, as it tracks every commit I make regardless of whether or not the github account repositories are current.
 
-log files follow this format:
+files follow this format:
 ```
+#log files containing commit messages::
 ProjectName::BranchName.log
+
+#data files containing file/insertion/deletion information for each commit:
+ProjectName::BranchName.data
 ```
 
 <p align="center">
