@@ -1,0 +1,30 @@
+f07a656 testing commit characteristics data table
+8237fa4 Split program into src modules
+372783b Refactor, improve format and comments, organize code
+2acc9af Continue to improve %GC graphs, debug polish function so that it works correctly and correctly extends all ATCGN arrays to match length of the longest array
+ba7c7c4 Refactor %GC and debug
+56c075a Polish graphs, get %GC graph working
+2a7ddc1 debug until graphs start showing
+9694ca3 Update README.md
+468a08f Update README.md
+6733f00 Update README
+37f21ef testing inheritence and subclassing
+2356306 improve argparse help message
+3661499 reformat so code doesn't throw errors
+65e2b25 Update project status
+dbbed7c Update README.md
+0db3742 update README
+c662f2d updates
+17e368b updated readme
+7d02f6b updated readme
+62314b1 working on GC across length of read
+d0234dc working on GC across length of read
+b6bca59 readme
+d1c8043 made data structure for fastq storage, added length distrib graph
+75095a8 unwrapping and sanity checks
+a290ac9 updates
+33b672c started graph section
+5c3e72e first lines...
+ed5b859 early stages
+9abf864 Update README.md
+ae5eb16 Initial commit
