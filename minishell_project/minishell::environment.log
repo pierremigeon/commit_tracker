@@ -1,3 +1,4 @@
+3744763 Establish basic functionality for two argument setenv with quotes and backslashes in name handled
 b5f1a5f repair merge conflict
 cb063a9 Redistribute functions to modules, free and error
 211c7e4 include header file changes and commit data summary script
