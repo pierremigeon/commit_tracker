@@ -1,3 +1,4 @@
+d6440e1 Make setenv function correctly for the two arguments and pass all basic tests
 cd4cf16 debug setenv two arguments, handle open quotes illegal characters and illegal start character errors and escaped quotes
 9367bcf make basic 2 arguments work
 c68eb0b Handle \ in the first setenv argument- before quotes, escape, in quotes, non-special
