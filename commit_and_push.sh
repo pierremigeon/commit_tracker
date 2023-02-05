@@ -6,6 +6,8 @@ for dir in $(ls -1t | grep _project); do
 	echo $(cat ./${dir}/*log | wc -l) >> projects_commits_list.tmp
 done;
 paste -d '|' projects_names_list.tmp projects_dates_list.tmp projects_commits_list.tmp | sed 's/[ ]*|/ | /g' | column -s $' ' -t > projects_summary.tmp
+sort -r -k 3 projects_summary.tmp > projects_summary2.tmp
+mv projects_summary2.tmp projects_summary.tmp
 
 python ./test_pyscript.py
 mv README.tmp README.md
