@@ -10,6 +10,7 @@ ProjectName::BranchName.log
 #data files containing file/insertion/deletion information for each commit:
 ProjectName::BranchName.data
 ```
+#### Projects Currently Tracked in this repo:
 
 [comment]: # (This is where the table goes)
 
