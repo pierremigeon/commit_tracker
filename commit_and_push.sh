@@ -8,6 +8,7 @@ done;
 paste -d '|' projects_names_list.tmp projects_dates_list.tmp projects_commits_list.tmp | sed 's/[ ]*|/ | /g' | column -s $' ' -t > projects_summary.tmp
 
 python ./test_pyscript.py
+mv README.tmp README.md
 rm *tmp 
 git log --oneline > $(pwd | rev | cut -f 1 -d / | rev).log
 git add .
