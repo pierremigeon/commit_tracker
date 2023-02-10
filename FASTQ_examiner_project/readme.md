@@ -1,0 +1,2 @@
+
+![test_image](https://github.com/pierremigeon/commit_tracker/blob/master/FASTQ_examiner_project/minishell::master.data_sum_barplot.png)
