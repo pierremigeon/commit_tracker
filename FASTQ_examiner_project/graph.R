@@ -20,9 +20,9 @@ for (f in files) {
 	#determine outliers
 	cutoff <- mean(a$Sum[2:nrow(a)]) + 3*sd(a$Sum[2:nrow(a)])
 
-	#create pdf
-	pdf(paste(f, "_sum_barplot.pdf", sep=""), width=11, height=8)
-	par(mar = c(7, 8, 6, 4))
+	#create png
+	png(paste(f, "_sum_barplot.png", sep=""), width=640, height=480)
+	par(mar = c(7, 7, 6, 5))
 	
 	#plot
 	barplot(a$Sum[a$Sum < cutoff] ~ a$Commit_num[a$Sum < cutoff], xlab="Project Branch Commit Number", ylab="Sum Changes Made", main="Productivity: Sum of Deletions & Insertions For Each Commit", las=2, cex.names=0.5, col=rainbow(15))
