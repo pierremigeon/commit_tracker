@@ -16,10 +16,10 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | Number of Commits
 :---|:---|:---
-minishell_project                        |  d6440e1     |  130
-ft_printf_project                        |  2023-01-27  |  36
-FASTQ_examiner_project                   |  2023-01-27  |  30
-test_non-fastforward_merge-push_project  |  2023-01-27  |  15
+FASTQ_examiner_project                   |  f07a656  |  30
+minishell_project                        |  d6440e1  |  130
+test_non-fastforward_merge-push_project  |  c68aa37  |  15
+ft_printf_project                        |  b21ceab  |  36
 
 [comment]: # (This is where the table ends)
 
