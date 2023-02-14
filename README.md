@@ -16,7 +16,7 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | Number of Commits
 :---|:---|:---
-minishell_project                        |  2023-02-03  |  130
+minishell_project                        |  2023-02-03  |  66
 ft_printf_project                        |  2023-01-27  |  36
 FASTQ_examiner_project                   |  2023-01-27  |  30
 test_non-fastforward_merge-push_project  |  2023-01-27  |  15
