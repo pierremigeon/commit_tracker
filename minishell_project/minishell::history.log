@@ -1,3 +1,4 @@
+4232f2d Debug basic history function basis, define requirements and fix some edge cases
 8fbf611 set groundwork for history command
 d6440e1 Make setenv function correctly for the two arguments and pass all basic tests
 cd4cf16 debug setenv two arguments, handle open quotes illegal characters and illegal start character errors and escaped quotes

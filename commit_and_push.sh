@@ -22,8 +22,8 @@ mv projects_summary2.tmp projects_summary.tmp
 python ./test_pyscript.py
 mv README.tmp README.md
 rm *tmp 
-#git log --oneline > $(pwd | rev | cut -f 1 -d / | rev).log
-#git add .
-#LINE_NUMBER=$(git log --oneline | wc -l | sed s/.*[^0-9]//)
-#git commit -m "COMMIT #$LINE_NUMBER"
-#git push origin master
+git log --oneline > $(pwd | rev | cut -f 1 -d / | rev).log
+git add .
+LINE_NUMBER=$(git log --oneline | wc -l | sed s/.*[^0-9]//)
+git commit -m "COMMIT #$LINE_NUMBER"
+git push origin master

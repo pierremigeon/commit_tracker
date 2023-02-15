@@ -1,3 +1,5 @@
+1d6a708 Correct commit number calculation. Still complicated by cases when there are multiple unmerged branches.
+7d86ee5 COMMIT #80
 0df2d98 save
 2acd626 COMMIT #78
 410bf82 COMMIT #77
