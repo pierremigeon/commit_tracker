@@ -1,5 +1,30 @@
 #add, commit, and push updates. When a separate git repository is updated, a post-commit hook transfers its commit history log to this directory and executes this script.
 
+#Create Summary Table for commit statistics
+file_name="$(pwd | rev | cut -f 1 -d / | rev)::$(git branch | grep \* | sed s/\*\ //).data";
+id1='file'; 
+id2='+'; 
+id3='-';
+i=$(git log --oneline | awk '{print $1}' | wc -l | sed 's/[^0-9]//g');
+echo -e "Commit_num\tCommit_id\tDate\t\tFiles\tInsert\tDelete\tSum" > ./${file_name};
+while : ; do
+	for id in $(git log --oneline | awk '{print $1}'); do 
+		data=$(echo $(git show $id --stat | tail -n1) | tr ',' '\n');
+		echo -ne $i "\t\t" >> ./${file_name};
+		echo -ne "$id\t\t" >> ./${file_name};
+		echo -ne $(git show -s --format=%ci $id | sed 's/\ .*//g') "\t" >> ./${file_name};
+		array=();
+		array[0]=$(echo $(grep "$id1" <<< "$data" || echo 0) | sed 's/[^0-9]//g');
+		array[1]=$(echo $(grep [$id2] <<< "$data" || echo 0) | sed 's/[^0-9]//g');
+		array[2]=$(echo $(grep [$id3] <<< "$data" || echo 0) | sed 's/[^0-9]//g');
+		array[3]=$(echo ${array[1]} + ${array[2]} | bc); 
+		echo ${array[@]} | tr ' ' '\t' >> ./${file_name};
+		i=$((i - 1));
+	done;
+	[[ $(head -n 2 $file_name | tail -n1 | awk '{print $1}' | grep - | echo $(wc -l)) -ne 0 ]] || break;
+	[[ $(awk '{print $7}' $file_name | echo $(wc -w)) -ne 0 ]] || break;
+done;
+
 echo -n > projects_names_list.tmp
 for dir in $(ls -1t | grep _project); do 
 	echo $dir >> projects_names_list.tmp
