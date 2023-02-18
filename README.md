@@ -16,6 +16,7 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | Number of Commits
 :---|:---|:---
+commit_tracker_project                   |  2023-02-17  |  84
 minishell_project                        |  2023-02-03  |  67
 ft_printf_project                        |  2023-01-27  |  36
 FASTQ_examiner_project                   |  2023-01-27  |  30
@@ -23,7 +24,7 @@ test_non-fastforward_merge-push_project  |  2023-01-27  |  15
 
 [comment]: # (This is where the table ends)
 
-![test_image](https://github.com/pierremigeon/commit_tracker/blob/master/commit_tracker_lineplot.png)
+![test_image](https://github.com/pierremigeon/commit_tracker/blob/master/commit_tracker_project/commit_tracker_lineplot.png)
 
 </br>
 
