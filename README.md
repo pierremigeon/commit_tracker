@@ -24,7 +24,7 @@ test_non-fastforward_merge-push_project  |  2023-01-27  |  15
 
 [comment]: # (This is where the table ends)
 
-![test_image](https://github.com/pierremigeon/commit_tracker/blob/master/commit_tracker_project/commit_tracker_lineplot.png)
+![test_image](https://github.com/pierremigeon/commit_tracker/blob/master/totals_lineplot.png)
 
 </br>
 
