@@ -23,9 +23,9 @@ for (f in files) {
 	#create png
 	png(paste(f, "_sum_barplot.png", sep=""), width=640, height=480)
 	par(mar = c(7, 7, 6, 5))
-	
+
 	#plot
-	barplot(a$Sum[a$Sum < cutoff] ~ a$Commit_num[a$Sum < cutoff], xlab="Project Branch Commit Number", ylab="Sum Changes Made", main="Productivity: Sum of Deletions & Insertions For Each Commit", las=2, cex.names=0.5, col=rainbow(15))
+	barplot(a$Sum[a$Sum < 2500 & a$Sum < cutoff] ~ a$Commit_num[a$Sum < 2500 & a$Sum < cutoff], xlab="Project Branch Commit Number", ylab="Sum Changes Made", main="Productivity: Sum of Deletions & Insertions For Each Commit", las=2, cex.names=0.5, col=rainbow(15))
 # col=rainbow(length(a$Sum[a$Sum < cutoff])))
 
 	#close pdf
