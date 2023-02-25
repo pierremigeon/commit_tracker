@@ -69,6 +69,6 @@ mv README.tmp README.md
 rm *tmp
 git log --oneline > ./${base}/$(pwd | rev | cut -f 1 -d / | rev).log
 git add .
-#LINE_NUMBER=$(git log --oneline | wc -l | sed s/.*[^0-9]//)
-#git commit -m "COMMIT #$LINE_NUMBER"
-#git push origin master
+LINE_NUMBER=$(git log --oneline | wc -l | sed s/.*[^0-9]//)
+git commit -m "COMMIT #$LINE_NUMBER"
+git push origin master

@@ -1,3 +1,5 @@
+27116c3 fix readme graph
+5c8bf48 Create directory for commit_tracker_project, summarize and plot some data for all tracked commits
 6f7b0ee COMMIT #83
 853b357 COMMIT #82
 1d6a708 Correct commit number calculation. Still complicated by cases when there are multiple unmerged branches.
