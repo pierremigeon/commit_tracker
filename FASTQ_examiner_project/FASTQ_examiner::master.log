@@ -1,3 +1,4 @@
+4574760 update error checking w/ check_error and is_error functions
 7f617ae debug downstream changes due to new read datastructure and debug removal of truncated reads
 09b2087 rework fastq parsing algorithm, remove initial format check module, and incorportate error checking into struct
 78bb89d refactor format check
