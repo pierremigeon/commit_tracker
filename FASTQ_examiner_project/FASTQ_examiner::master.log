@@ -1,3 +1,4 @@
+56622e6 Output erroneous reads into error read files
 b730715 remove empty files from seqs array and analyze N bases directly from the seqs array
 4574760 update error checking w/ check_error and is_error functions
 7f617ae debug downstream changes due to new read datastructure and debug removal of truncated reads
