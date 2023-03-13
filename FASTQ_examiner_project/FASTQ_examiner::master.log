@@ -1,3 +1,4 @@
+caa9fdc Create functions for generating common substrings for + separator and headerlines and functions to detect these lines in the input file
 56622e6 Output erroneous reads into error read files
 b730715 remove empty files from seqs array and analyze N bases directly from the seqs array
 4574760 update error checking w/ check_error and is_error functions
