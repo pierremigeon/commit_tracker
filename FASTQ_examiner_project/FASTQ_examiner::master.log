@@ -1,3 +1,4 @@
+f27affa remove singleton reads and output to corresponding file
 2299b01 flesh out remove_singletons function
 dafc06a Sort seq files based on pairing, prepare to remove singletons and output to singleton file
 782c8e5 debug base header function and verify header error detection correct
