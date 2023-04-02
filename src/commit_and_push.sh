@@ -37,6 +37,7 @@ Rscript ./src/graph.R
 echo -n > projects_names_list.tmp
 for dir in $(ls -1t | grep _project); do 
 	echo $dir >> projects_names_list.tmp
+	cat ./${dir}/branch_number >> projects_branches.tmp
 	head -2 ./${dir}/*data | tail -1 | cut -f5 >> projects_dates_list.tmp
 	commits_tmp=0
 	commits=0
@@ -49,7 +50,7 @@ for dir in $(ls -1t | grep _project); do
 	echo $commits >> projects_commits_list.tmp
 done;
 
-paste -d '|' projects_names_list.tmp projects_dates_list.tmp projects_commits_list.tmp | sed 's/[ ]*|/ | /g' | column -s $' ' -t > projects_summary.tmp
+paste -d '|' projects_names_list.tmp projects_dates_list.tmp projects_commits_list.tmp projects_branches.tmp | sed 's/[ ]*|/ | /g' | column -s $' ' -t > projects_summary.tmp
 sort -r -k 3 projects_summary.tmp > projects_summary2.tmp
 mv projects_summary2.tmp projects_summary.tmp
 
