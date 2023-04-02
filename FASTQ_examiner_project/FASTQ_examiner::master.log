@@ -1,3 +1,4 @@
+641adb5 Expand output functionality
 774a662 refactor output singletons and abstract to seperate new function
 932d9cb Add leaf option to output interleaved fastq post-processing
 46b416a Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
