@@ -1,3 +1,4 @@
+c0443d8 Sketch out detecting leafed files and splitting them into two files, forward and reverse
 f8ff919 add interleaving output option functions
 cec11dd Fix bugs- add newlines to the end of joins for outputs and remove singletons from the final output files
 641adb5 Expand output functionality
