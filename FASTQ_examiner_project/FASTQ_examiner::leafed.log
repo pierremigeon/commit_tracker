@@ -1,3 +1,4 @@
+fad0678 debug array split for forward and reverse reads
 1b4c706 Add function to insert forward reads into middle of array
 172bc33 add function to split interleafed file into two files in the seq array, forward and reverse respectively.
 c0443d8 Sketch out detecting leafed files and splitting them into two files, forward and reverse
