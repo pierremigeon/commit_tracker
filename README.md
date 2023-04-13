@@ -18,11 +18,11 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | # Commits | # Branches | Merged Branches
 :---|:---|:---|:---|:---
-commit_tracker_project                   |  2023-04-12  |  114  |  1  |  1  100%
-FASTQ_examiner_project                   |  2023-04-06  |  55   |  2  |  1  50%
-minishell_project                        |  2023-02-03  |  67   |  8  |  6  75%
-ft_printf_project                        |  2023-01-27  |  36   |  2  |  2  100%
-test_non-fastforward_merge-push_project  |  2023-01-27  |  15   |  2  |  1  50%
+commit_tracker_project                   |  2023-04-12  |  115  |  1  |  1  	  (100%)
+FASTQ_examiner_project                   |  2023-04-06  |  55   |  2  |  1  	  (50%)
+minishell_project                        |  2023-02-03  |  67   |  8  |  6  	  (75%)
+ft_printf_project                        |  2023-01-27  |  36   |  2  |  2  	  (100%)
+test_non-fastforward_merge-push_project  |  2023-01-27  |  15   |  2  |  1  	  (50%)
 
 [comment]: # (This is where the table ends)
 
@@ -30,11 +30,10 @@ test_non-fastforward_merge-push_project  |  2023-01-27  |  15   |  2  |  1  50%
  <img width="920" height="600" src="https://github.com/pierremigeon/commit_tracker/blob/master/totals_lineplot.png">
 </p>
 
-</br>
-
 <p align="center">
   <img width="460" height="300" src="https://cdn.shopify.com/s/files/1/0502/6417/products/ScreenShot2020-04-30at10.11.38PM_4472x.png?v=1588308646">
 </p>
+</br>
 </br>
 
 *another green-ish square...*
