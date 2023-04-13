@@ -16,17 +16,21 @@ ProjectName::BranchName.data
 
 [comment]: # (This is where the table goes)
 
-Project Name | Last Updated | # of Commits | # of Branches
-:---|:---|:---|:---
-commit_tracker_project                   |  2023-04-11  |  112  |  1
-FASTQ_examiner_project                   |  2023-04-06  |  55   |  2
-minishell_project                        |  2023-02-03  |  67   |  8
-ft_printf_project                        |  2023-01-27  |  36   |  2
-test_non-fastforward_merge-push_project  |  2023-01-27  |  15   |  2
+Project Name | Last Updated | # Commits | # Branches | Merged Branches
+:---|:---|:---|:---|:---
+commit_tracker_project                   |  2023-04-11  |  113  |  1  |  1  100%
+FASTQ_examiner_project                   |  2023-04-06  |  55   |  2  |  1  50%
+minishell_project                        |  2023-02-03  |  67   |  8  |  6  75%
+ft_printf_project                        |  2023-01-27  |  36   |  2  |  2  100%
+test_non-fastforward_merge-push_project  |  2023-01-27  |  15   |  2  |  1  50%
 
 [comment]: # (This is where the table ends)
 
 ![test_image](https://github.com/pierremigeon/commit_tracker/blob/master/totals_lineplot.png)
+
+<p align="center">
+ <img width="460" height="300" src="https://github.com/pierremigeon/commit_tracker/blob/master/totals_lineplot.png">
+</p>
 
 </br>
 
