@@ -36,7 +36,8 @@ Rscript ./src/graph.R
 
 echo -n > projects_names_list.tmp
 for dir in $(ls -1t | grep _project); do 
-	echo $dir >> projects_names_list.tmp
+	base_project_name=$(basename $dir _project)
+	echo $base_project_name >> projects_names_list.tmp
 	cat ./${dir}/branch_number >> projects_branches.tmp
 	head -2 ./${dir}/*data | tail -1 | cut -f5 >> projects_dates_list.tmp
 	commits_tmp=0

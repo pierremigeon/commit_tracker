@@ -1,3 +1,4 @@
+113b248 Create file specific output directory
 12ce4b9 start writing tests for specific input file types
 ad92e10 Adjust split_leafed() function to correctly split leafed array into forward and reverse read arrays, increment 'middle' index and include last element in array slice by using [start:] instead of [start:-1]
 fad0678 debug array split for forward and reverse reads

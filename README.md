@@ -18,11 +18,11 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | # Commits | # Branches | Merged Branches
 :---|:---|:---|:---|:---
-commit_tracker_project                   |  2023-04-13  |  118  |  1  |  1  	  (100%)
-FASTQ_examiner_project                   |  2023-04-06  |  55   |  2  |  1  	  (50%)
-minishell_project                        |  2023-02-03  |  67   |  8  |  6  	  (75%)
-ft_printf_project                        |  2023-01-27  |  36   |  2  |  2  	  (100%)
-test_non-fastforward_merge-push_project  |  2023-01-27  |  15   |  2  |  1  	  (50%)
+commit_tracker                   |  2023-04-13  |  119  |  1  |  1  	     (100%)
+FASTQ_examiner                   |  2023-04-06  |  56   |  2  |  1  50%
+minishell                        |  2023-02-03  |  67   |  8  |  6  	     (75%)
+ft_printf                        |  2023-01-27  |  36   |  2  |  2  	     (100%)
+test_non-fastforward_merge-push  |  2023-01-27  |  15   |  2  |  1  	     (50%)
 
 [comment]: # (This is where the table ends)
 
