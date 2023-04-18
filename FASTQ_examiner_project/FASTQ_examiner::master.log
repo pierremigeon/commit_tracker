@@ -1,3 +1,10 @@
+5c83db5 write script to wrap reads to certain lengths for testing
+afaa764 prepare testing data for wrapped files and add wrap tests to bash script
+113b248 Create file specific output directory
+12ce4b9 start writing tests for specific input file types
+ad92e10 Adjust split_leafed() function to correctly split leafed array into forward and reverse read arrays, increment 'middle' index and include last element in array slice by using [start:] instead of [start:-1]
+fad0678 debug array split for forward and reverse reads
+1b4c706 Add function to insert forward reads into middle of array
 172bc33 add function to split interleafed file into two files in the seq array, forward and reverse respectively.
 c0443d8 Sketch out detecting leafed files and splitting them into two files, forward and reverse
 f8ff919 add interleaving output option functions
