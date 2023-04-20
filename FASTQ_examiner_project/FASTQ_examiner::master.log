@@ -1,3 +1,4 @@
+57133f6 Add no visual (-nv) option flag to suppress graphical output
 533d967 subtract middle pointer when remove error read from the lines array, and account for start and end edges when labelling read sets as paired vs unpaired
 d74ed7c prepare test data for different error cases
 5c83db5 write script to wrap reads to certain lengths for testing
