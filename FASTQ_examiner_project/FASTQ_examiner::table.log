@@ -1,3 +1,4 @@
+97ae5f4 switch conditional logical to correct flow
 b5738c0 Source file from subshell to run check_dependencies.sh and minor reformat
 44d2679 Create script to install python package dependencies
 10bf4ae Create summary table branch and module file, sketch out some basic statistics table
