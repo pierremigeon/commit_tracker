@@ -1,3 +1,4 @@
+44d2679 Create script to install python package dependencies
 10bf4ae Create summary table branch and module file, sketch out some basic statistics table
 9e1862c Refactor put_in_struct() function and remove comments
 57133f6 Add no visual (-nv) option flag to suppress graphical output
