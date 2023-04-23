@@ -18,8 +18,8 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | # Commits | # Branches | Merged Branches
 :---|:---|:---|:---|:---
-FASTQ_examiner                   |  2023-04-21  |  66   |  3  |  67%  (2/3)
-commit_tracker                   |  2023-04-21  |  129  |  1  |  1    	       (100%)
+FASTQ_examiner                   |  2023-04-23  |  67   |  3  |  67%  (2/3)
+commit_tracker                   |  2023-04-21  |  130  |  1  |  1    	       (100%)
 minishell                        |  2023-02-03  |  67   |  8  |  6    	       (75%)
 ft_printf                        |  2023-01-27  |  36   |  2  |  2    	       (100%)
 test_non-fastforward_merge-push  |  2023-01-27  |  15   |  2  |  1    	       (50%)
