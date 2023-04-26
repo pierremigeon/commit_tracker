@@ -37,7 +37,7 @@ Rscript ./src/graph.R
 echo -n > projects_names_list.tmp
 for dir in $(ls -1t | grep _project); do 
 	base_project_name=$(basename $dir _project)
-	echo $base_project_name >> projects_names_list.tmp
+	echo [$base_project_name]\(https://github.com/pierremigeon/${base_project_name}\) >> projects_names_list.tmp
 	cat ./${dir}/branch_number >> projects_branches.tmp
 	head -2 ./${dir}/*data | tail -1 | cut -f5 >> projects_dates_list.tmp
 	commits_tmp=0
@@ -54,6 +54,7 @@ done;
 paste -d '|' projects_names_list.tmp projects_dates_list.tmp projects_commits_list.tmp projects_branches.tmp | sed 's/[ ]*|/ | /g' | column -s $' ' -t > projects_summary.tmp
 sort -r -k 3 projects_summary.tmp > projects_summary2.tmp
 mv projects_summary2.tmp projects_summary.tmp
+sed -i '' 's/\%.*(/\%\t(/g' ./projects_summary.tmp
 
 #Update summary table of tracked projects
 python ./src/update_readme_table.py
