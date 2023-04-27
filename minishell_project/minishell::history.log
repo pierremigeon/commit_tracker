@@ -1,4 +1,4 @@
-1d447d9 Create history module and set stage for moving functionality out of main and into distinct module
+2f99517 Create history module and set stage for moving functionality out of main and into distinct module
 4232f2d Debug basic history function basis, define requirements and fix some edge cases
 8fbf611 set groundwork for history command
 d6440e1 Make setenv function correctly for the two arguments and pass all basic tests

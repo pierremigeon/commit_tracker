@@ -17,7 +17,7 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | # Commits | # Branches | Branches Merged
 :---|:---:|:---:|:---:|:---:
-[commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  2023-04-27  |  135  |  1  |  100%  (1/1)
+[commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  2023-04-27  |  140  |  1  |  100%  (1/1)
 [FASTQ_examiner](https://github.com/pierremigeon/FASTQ_examiner)                                    |  2023-04-24  |  68   |  3  |  67%   (2/3)
 [minishell](https://github.com/pierremigeon/minishell)                                              |  2023-02-03  |  68   |  8  |  75%   (6/8)
 [ft_printf](https://github.com/pierremigeon/ft_printf)                                              |  2023-01-27  |  36   |  2  |  100%  (2/2)
