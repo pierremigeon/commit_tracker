@@ -17,7 +17,7 @@ ProjectName::BranchName.data
 [comment]: # (This is where the table goes)
 
 <!-- prettier-ignore -->
-Project Name | Last Updated | # Commits | # Branches | <div style="width:12px">Branches Merged</div>
+Project Name | Last Updated | # Commits | # Branches | <div style="width:15px">Branches Merged</div>
 :---|:---|:---|:---|:---
 [commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  2023-04-26  |  134  |  1  |  100%  (1/1)
 [FASTQ_examiner](https://github.com/pierremigeon/FASTQ_examiner)                                    |  2023-04-24  |  68   |  3  |  67%   (2/3)
