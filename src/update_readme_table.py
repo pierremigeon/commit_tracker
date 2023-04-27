@@ -9,7 +9,7 @@ for line in readme_in:
 	if "[comment]:" in line:
 		readme_out.write(line)
 		if x == 0:
-			readme_out.write("\nProject Name | Last Updated | # Commits | # Branches | Branches Merged\n:---|:---|:---|:---|:---\n")
+			readme_out.write("\n<!-- prettier-ignore -->\nProject Name | Last Updated | # Commits | # Branches | Branches Merged\n:---|:---|:---|:---|:---\n")
 		for i in projects_list:
 			readme_out.write(i)
 		if x == 0:
