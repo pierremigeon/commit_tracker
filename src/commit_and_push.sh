@@ -39,7 +39,7 @@ for dir in $(ls -1t | grep _project); do
 	base_project_name=$(basename $dir _project)
 	echo [$base_project_name]\(https://github.com/pierremigeon/${base_project_name}\) >> projects_names_list.tmp
 	cat ./${dir}/branch_number >> projects_branches.tmp
-	head -2 ./${dir}/*data | tail -1 | cut -f5 >> projects_dates_list.tmp
+	ls -1t ./${dir}/*data | head -1 | xargs head -2 | tail -1 | cut -f5 >> projects_dates_list.tmp
 	commits_tmp=0
 	commits=0
 	for log in ./${dir}/*log; do
