@@ -1,4 +1,3 @@
-
 ### Commit tracker
 This is repo is strictly for the purpose of tracking commits, so that I can get those sweet sweet green boxes on my github profile when I'm making commits to forked repos. Full disclosure, this directory is updated for any commits that I make, even without pushing those commits to this remote. It's still a measure of my productivity, but it's definitely not completely consistent with github's standard for this metric. It's actually a broader measure, as it tracks every commit I make regardless of whether or not the github account repositories are current.
 
@@ -16,9 +15,8 @@ ProjectName::BranchName.data
 
 [comment]: # (This is where the table goes)
 
-<!-- prettier-ignore -->
-Project Name | Last Updated | # Commits | # Branches | <div style="width:25px">Branches Merged</div>
-:---|:---|:---|:---|:---
+Project Name | Last Updated | # Commits | # Branches | Branches Merged
+:---|:---:|:---:|:---:|:---:
 [commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  2023-04-26  |  134  |  1  |  100%  (1/1)
 [FASTQ_examiner](https://github.com/pierremigeon/FASTQ_examiner)                                    |  2023-04-24  |  68   |  3  |  67%   (2/3)
 [minishell](https://github.com/pierremigeon/minishell)                                              |  2023-02-03  |  67   |  8  |  75%   (6/8)
