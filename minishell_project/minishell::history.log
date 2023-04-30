@@ -1,3 +1,4 @@
+e825cd7 move set_history out of main() and into run_command()
 d2e7fc4 store last executed line in env_h hash using the function set_history()
 2f99517 Create history module and set stage for moving functionality out of main and into distinct module
 4232f2d Debug basic history function basis, define requirements and fix some edge cases
