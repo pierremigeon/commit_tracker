@@ -1,3 +1,4 @@
+64a6b97 remove the initial screen clear from command history using new clear_history() function
 b7dc95c Remove history functionality completely from out of main()
 690cfcf write basic history command function history()
 e825cd7 move set_history out of main() and into run_command()
