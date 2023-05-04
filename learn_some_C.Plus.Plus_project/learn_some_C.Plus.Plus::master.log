@@ -1,3 +1,4 @@
+30e1ad3 Write table creation function and take user input for index and entry search
 b83f4f1 develop most of search function
 6361b9d Define phonebook and contact classes with outline of all variables and functions they use and include header in the main
 2c9b44f write basic functional main() for phonebook program in ex01
