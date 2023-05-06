@@ -1,3 +1,4 @@
+2581541 convert text to uppercase so user input can be written either upper or lower case
 9677671 Initialize phonebook entry within the phonebook class
 30e1ad3 Write table creation function and take user input for index and entry search
 b83f4f1 develop most of search function
