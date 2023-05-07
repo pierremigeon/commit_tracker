@@ -1,3 +1,4 @@
+2bb2cd2 move update entry function to contact class to increase number of private variables
 c10560f Complete entry add functionality. All requirements met
 2581541 convert text to uppercase so user input can be written either upper or lower case
 9677671 Initialize phonebook entry within the phonebook class
