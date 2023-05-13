@@ -17,10 +17,10 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | # Commits | # Branches | Branches Merged
 :---|:---:|:---:|:---:|:---:
+[learn_some_C.Plus.Plus](https://github.com/pierremigeon/learn_some_C.Plus.Plus)                    |  2023-05-13  |  14   |  1  |  100%  (1/1)
 [FASTQ_examiner](https://github.com/pierremigeon/FASTQ_examiner)                                    |  2023-05-12  |  68   |  4  |  50%   (2/4)
+[commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  2023-05-12  |  163  |  1  |  100%  (1/1)
 [minishell](https://github.com/pierremigeon/minishell)                                              |  2023-05-09  |  74   |  8  |  75%   (6/8)
-[commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  2023-05-09  |  162  |  1  |  100%  (1/1)
-[learn_some_C.Plus.Plus](https://github.com/pierremigeon/learn_some_C.Plus.Plus)                    |  2023-05-08  |  13   |  1  |  100%  (1/1)
 [ft_printf](https://github.com/pierremigeon/ft_printf)                                              |  2023-01-27  |  36   |  2  |  100%  (2/2)
 [test_non-fastforward_merge-push](https://github.com/pierremigeon/test_non-fastforward_merge-push)  |  2023-01-27  |  15   |  2  |  50%   (1/2)
 
