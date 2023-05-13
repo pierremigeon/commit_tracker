@@ -1,0 +1,63 @@
+08d0088 Draft sequence_file class
+9e1862c Refactor put_in_struct() function and remove comments
+57133f6 Add no visual (-nv) option flag to suppress graphical output
+533d967 subtract middle pointer when remove error read from the lines array, and account for start and end edges when labelling read sets as paired vs unpaired
+d74ed7c prepare test data for different error cases
+5c83db5 write script to wrap reads to certain lengths for testing
+afaa764 prepare testing data for wrapped files and add wrap tests to bash script
+113b248 Create file specific output directory
+12ce4b9 start writing tests for specific input file types
+ad92e10 Adjust split_leafed() function to correctly split leafed array into forward and reverse read arrays, increment 'middle' index and include last element in array slice by using [start:] instead of [start:-1]
+fad0678 debug array split for forward and reverse reads
+1b4c706 Add function to insert forward reads into middle of array
+172bc33 add function to split interleafed file into two files in the seq array, forward and reverse respectively.
+c0443d8 Sketch out detecting leafed files and splitting them into two files, forward and reverse
+f8ff919 add interleaving output option functions
+cec11dd Fix bugs- add newlines to the end of joins for outputs and remove singletons from the final output files
+641adb5 Expand output functionality
+774a662 refactor output singletons and abstract to seperate new function
+932d9cb Add leaf option to output interleaved fastq post-processing
+46b416a Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
+2094008 remove singleton reads and output to corresponding file
+f27affa remove singleton reads and output to corresponding file
+2299b01 flesh out remove_singletons function
+dafc06a Sort seq files based on pairing, prepare to remove singletons and output to singleton file
+782c8e5 debug base header function and verify header error detection correct
+24b2fc3 Correct syntax and first round of debugging for expanded advanced header/seq line verification.
+caa9fdc Create functions for generating common substrings for + separator and headerlines and functions to detect these lines in the input file
+56622e6 Output erroneous reads into error read files
+b730715 remove empty files from seqs array and analyze N bases directly from the seqs array
+4574760 update error checking w/ check_error and is_error functions
+7f617ae debug downstream changes due to new read datastructure and debug removal of truncated reads
+09b2087 rework fastq parsing algorithm, remove initial format check module, and incorportate error checking into struct
+78bb89d refactor format check
+f07a656 testing commit characteristics data table
+8237fa4 Split program into src modules
+372783b Refactor, improve format and comments, organize code
+2acc9af Continue to improve %GC graphs, debug polish function so that it works correctly and correctly extends all ATCGN arrays to match length of the longest array
+ba7c7c4 Refactor %GC and debug
+56c075a Polish graphs, get %GC graph working
+2a7ddc1 debug until graphs start showing
+9694ca3 Update README.md
+468a08f Update README.md
+6733f00 Update README
+37f21ef testing inheritence and subclassing
+2356306 improve argparse help message
+3661499 reformat so code doesn't throw errors
+65e2b25 Update project status
+dbbed7c Update README.md
+0db3742 update README
+c662f2d updates
+17e368b updated readme
+7d02f6b updated readme
+62314b1 working on GC across length of read
+d0234dc working on GC across length of read
+b6bca59 readme
+d1c8043 made data structure for fastq storage, added length distrib graph
+75095a8 unwrapping and sanity checks
+a290ac9 updates
+33b672c started graph section
+5c3e72e first lines...
+ed5b859 early stages
+9abf864 Update README.md
+ae5eb16 Initial commit
