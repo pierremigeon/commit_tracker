@@ -1,9 +1,9 @@
 
 #get script path
 args <- commandArgs(trailingOnly = F)  
+files <- args[6]
 scriptPath <- normalizePath(dirname(sub("^--file=", "", args[grep("^--file=", args)])))
 setwd(scriptPath)
-files <- dir(pattern=".*.data$")
 
 for (f in files) {
 	#read-data

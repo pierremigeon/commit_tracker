@@ -1,4 +1,5 @@
-#add, commit, and push updates. When a separate git repository is updated, a post-commit hook transfers its commit history log to this directory and executes this script.
+#Author: Pierre Migeon Spring 2023
+#Description: add, commit, and push updates. When a separate git repository is updated, a post-commit hook transfers its commit history log to this directory and executes this script.
 
 cd ..
 #Create Summary Table for commit statistics
@@ -34,6 +35,7 @@ Rscript ./commit_tracker_project/graph.R
 #Create graph of all tracked commits
 Rscript ./src/graph.R
 
+#Create table of all projects tracked in this repo
 echo -n > projects_names_list.tmp
 for dir in $(ls -1t | grep _project); do 
 	base_project_name=$(basename $dir _project)
@@ -67,8 +69,11 @@ paste totals.tmp totals.data | cut -f1,4-10 > totals.2.tmp
 echo -e "Number\t$header" > totals.data
 cat totals.2.tmp >> totals.data
 
+#clean up temp files
 mv README.tmp README.md
 rm *tmp
+
+#create log files, commit updates and push the commit tracker directory 
 git log --oneline > ./${base}/$(pwd | rev | cut -f 1 -d / | rev).log
 git add .
 LINE_NUMBER=$(git log --oneline | wc -l | sed s/.*[^0-9]//)
