@@ -30,7 +30,7 @@ while : ; do
 done;
 
 #create graph for commit_tracker project
-Rscript ./commit_tracker_project/graph.R ./${file_name}
+Rscript ./commit_tracker_project/graph.R 
 
 #Create table of all projects tracked in this repo
 echo -n > projects_names_list.tmp
