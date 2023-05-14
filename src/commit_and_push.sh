@@ -30,10 +30,7 @@ while : ; do
 done;
 
 #create graph for commit_tracker project
-Rscript ./commit_tracker_project/graph.R
-
-#Create graph of all tracked commits
-Rscript ./src/graph.R
+Rscript ./commit_tracker_project/graph.R ./${file_name}
 
 #Create table of all projects tracked in this repo
 echo -n > projects_names_list.tmp
@@ -72,6 +69,9 @@ cat totals.2.tmp >> totals.data
 #clean up temp files
 mv README.tmp README.md
 rm *tmp
+
+#Create graph of all tracked commits
+Rscript ./src/graph.R 
 
 #create log files, commit updates and push the commit tracker directory 
 git log --oneline > ./${base}/$(pwd | rev | cut -f 1 -d / | rev).log
