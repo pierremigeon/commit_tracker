@@ -1,3 +1,4 @@
+5784812 add tabs to legal spaces for H command, complete requirements A for history command
 7ca5c2d allow H command followed by a newline or H command followed or lead by spaces and exclude any attempted arguments to H command
 64a6b97 remove the initial screen clear from command history using new clear_history() function
 b7dc95c Remove history functionality completely from out of main()
