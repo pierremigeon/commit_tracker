@@ -1,3 +1,4 @@
+d4c3d70 cpp01 ex01 add llist-> announce() and delete functions, freeing allocated space
 78e9aac finish cpp01 ex01
 66133d6 remove const, opt for copies rather than pointers/references were appropriate, generally finalize everything and update object constructor assignment syntax
 3bb72e8 update internal object variable to this-> idiom
