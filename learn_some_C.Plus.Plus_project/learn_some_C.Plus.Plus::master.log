@@ -1,3 +1,4 @@
+b9933b1 make program functional
 72a2624 write basic program with general scheme of functionality present, no testing
 d4c3d70 cpp01 ex01 add llist-> announce() and delete functions, freeing allocated space
 78e9aac finish cpp01 ex01
