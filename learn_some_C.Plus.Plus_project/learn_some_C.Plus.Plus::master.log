@@ -1,3 +1,4 @@
+536c5df Move function pointer array and typedef into class definition. Reformat output
 a6ea010 Make Harl functional cpp01 ex05
 1f80a71 define functions and class for Harl
 b9933b1 make program functional
