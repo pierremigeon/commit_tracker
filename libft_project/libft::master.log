@@ -1,5 +1,4 @@
-e0f054a add putstrl, putstrnl, strjoinfree, and strnewchar functions originating in ft_printf
-1307e66 Update README.md with technical details
+cd19aad add putstrl, putstrnl, strjoinfree, and strnewchar functions originating in ft_printf
 a156698 Update README.md with technical details
 c96ac10 edit readme
 bb36c92 add image to README.md
