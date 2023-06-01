@@ -1,3 +1,4 @@
+b4eaa89 Update README information concerning test suite
 b21ceab testing commit characteristics data table
 4af6736 correctly print null character for %c and '\0' cases
 024a2eb write additional float tests
