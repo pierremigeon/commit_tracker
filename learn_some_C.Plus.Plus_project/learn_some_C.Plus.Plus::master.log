@@ -1,4 +1,4 @@
-ab64b84 cpp02 ex00 groundwork laid, compiles but not as specified yet
+4bcf3f6 cpp02 ex00 groundwork laid, compiles but not as specified yet
 536c5df Move function pointer array and typedef into class definition. Reformat output
 a6ea010 Make Harl functional cpp01 ex05
 1f80a71 define functions and class for Harl
