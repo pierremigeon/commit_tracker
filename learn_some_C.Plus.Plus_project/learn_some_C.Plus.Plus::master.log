@@ -1,3 +1,4 @@
+7a1f88f sketch out new function requirements in *.hpp files for cpp02 ex01 and ex02
 9a30add cpp02 ex00 completed
 4bcf3f6 cpp02 ex00 groundwork laid, compiles but not as specified yet
 536c5df Move function pointer array and typedef into class definition. Reformat output
