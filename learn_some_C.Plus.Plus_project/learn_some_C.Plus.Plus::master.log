@@ -1,3 +1,4 @@
+8ac7ed4 polish cpp02 ex01 functions
 e9d7ecf tests given in syllabus now passing
 3b994d8 Set up basic float->FP and FP->float logic
 1b863e6 convert ints to fixed point representation and convert back to int representation
