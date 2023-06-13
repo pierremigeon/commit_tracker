@@ -1,3 +1,4 @@
+cae9941 complete min/max for const/non-const input using static functions and write basic tests in main cpp002 ex02
 36374b8 write basic min and max functions, learn static functions
 2269799 add 6 operator overloads and tests for >,>=,<, <=, ==, != for all double/FP/int comparisons cpp02 ex02
 91609a4 implement == and != operator overloads for FixedPoint class, cpp02 ex02
