@@ -1,3 +1,4 @@
+36374b8 write basic min and max functions, learn static functions
 2269799 add 6 operator overloads and tests for >,>=,<, <=, ==, != for all double/FP/int comparisons cpp02 ex02
 91609a4 implement == and != operator overloads for FixedPoint class, cpp02 ex02
 8ac7ed4 polish cpp02 ex01 functions
