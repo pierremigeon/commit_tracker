@@ -1,3 +1,4 @@
+9956480 Write Point class and functions
 e1d6616 return copy of original FixPoint from post-increment and add test main2.cpp
 b6df841 add pre/post incremement and pre/post decrement overload functions
 14cbace pass FixPoint by reference not by copy for +-*/ operator function overload
