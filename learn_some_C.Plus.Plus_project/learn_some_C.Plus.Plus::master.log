@@ -1,3 +1,4 @@
+35ad1be moved average function to Point class and debugged
 447e73d sketch out bsp function
 9956480 Write Point class and functions
 e1d6616 return copy of original FixPoint from post-increment and add test main2.cpp
