@@ -1,3 +1,4 @@
+de8b892 protect header files
 b5762a1 write all base functions for ClapTrap cpp03 ex00
 6a4a2e3 write basic class and functions for cpp03 ex00
 ef8090b Add count of total objects for Point class and id each object
