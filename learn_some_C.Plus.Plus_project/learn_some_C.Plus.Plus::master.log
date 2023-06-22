@@ -1,3 +1,4 @@
+1b326bc create HeadPoint class to be static pointer to head, i.e. smart pointer emulator
 af17deb add tree node
 de8b892 protect header files
 b5762a1 write all base functions for ClapTrap cpp03 ex00
