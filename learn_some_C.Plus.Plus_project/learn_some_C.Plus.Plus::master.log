@@ -1,3 +1,4 @@
+74a543a Add binary tree add() and search() functions, search for ClapTrap on the basis of string name and perform attack on the named ClapTrap object
 1b326bc create HeadPoint class to be static pointer to head, i.e. smart pointer emulator
 af17deb add tree node
 de8b892 protect header files
