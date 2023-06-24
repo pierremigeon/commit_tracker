@@ -1,7 +1,11 @@
+8652eca add functions to check if name exists and number name if so
+2cb91ce Merge branch 'master' of https://github.com/pierremigeon/learn_some_c-
 74a543a Add binary tree add() and search() functions, search for ClapTrap on the basis of string name and perform attack on the named ClapTrap object
 1b326bc create HeadPoint class to be static pointer to head, i.e. smart pointer emulator
 af17deb add tree node
 de8b892 protect header files
+585a392 Update README.md
+57097f5 Update README.md
 b5762a1 write all base functions for ClapTrap cpp03 ex00
 6a4a2e3 write basic class and functions for cpp03 ex00
 ef8090b Add count of total objects for Point class and id each object
