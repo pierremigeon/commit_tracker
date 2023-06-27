@@ -1,3 +1,4 @@
+5b88f72 add name adjustment to the copy constructor and assignment overload functions
 6b22693 Check if name exists and assign new number for name is so. Each new node is placed into a binary tree with unique name and node.
 8652eca add functions to check if name exists and number name if so
 2cb91ce Merge branch 'master' of https://github.com/pierremigeon/learn_some_c-
