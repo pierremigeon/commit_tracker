@@ -1,3 +1,4 @@
+76490c4 remove duplicated checkExist function and trim unecessary code from number_name() cpp03 ex00 & ex01
 33bc834 set up basic ScavTrap class for inheritence exercise
 5b88f72 add name adjustment to the copy constructor and assignment overload functions
 6b22693 Check if name exists and assign new number for name is so. Each new node is placed into a binary tree with unique name and node.
