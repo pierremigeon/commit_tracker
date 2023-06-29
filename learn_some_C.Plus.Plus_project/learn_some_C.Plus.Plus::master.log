@@ -1,3 +1,4 @@
+d7ab827 define class FragTrap
 dbdf610 completed inheritence exercise
 76490c4 remove duplicated checkExist function and trim unecessary code from number_name() cpp03 ex00 & ex01
 33bc834 set up basic ScavTrap class for inheritence exercise
