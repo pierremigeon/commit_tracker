@@ -1,3 +1,4 @@
+057eab4 cpp03 format Makefiles and add copy constructor and assignment overload for Node class
 d7ab827 define class FragTrap
 dbdf610 completed inheritence exercise
 76490c4 remove duplicated checkExist function and trim unecessary code from number_name() cpp03 ex00 & ex01
