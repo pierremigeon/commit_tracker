@@ -1,3 +1,4 @@
+7718976 compile basic DiamondTrap class using virtual base class and multiple inheritance
 2875c10 complete cpp04 ex00 intro polymorphism exercise
 057eab4 cpp03 format Makefiles and add copy constructor and assignment overload for Node class
 d7ab827 define class FragTrap
