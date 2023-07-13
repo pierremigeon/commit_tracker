@@ -1,3 +1,4 @@
+105a78c check to verify deep copy
 e5d529b write Brain class and add to Animal class, use deep copy in the class constructors.
 55dd7db Make ScavTrap specific attack() function and call it from DiamondTrap
 7718976 compile basic DiamondTrap class using virtual base class and multiple inheritance
