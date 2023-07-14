@@ -1,3 +1,4 @@
+89e14c7 Add array of animal objects, allocated, and then free them one by one
 105a78c check to verify deep copy
 e5d529b write Brain class and add to Animal class, use deep copy in the class constructors.
 55dd7db Make ScavTrap specific attack() function and call it from DiamondTrap
