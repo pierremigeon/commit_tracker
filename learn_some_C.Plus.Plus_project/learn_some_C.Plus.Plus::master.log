@@ -1,3 +1,4 @@
+7218b39 make 2 different sets of tests mutually exlusive and specify run options in makefile
 8c1dfc2 copy this->noise in assignment operator overload
 89e14c7 Add array of animal objects, allocated, and then free them one by one
 105a78c check to verify deep copy
