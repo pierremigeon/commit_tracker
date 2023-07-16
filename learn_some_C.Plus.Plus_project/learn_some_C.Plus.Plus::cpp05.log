@@ -1,0 +1,77 @@
+b840551 define bureaucrat class and impliment most functions
+0d046d4 Set up basis for exercise cpp04 ex03
+8abdb65 correct extraneous directory
+b11a3d3 Make Animal an abstract class
+7218b39 make 2 different sets of tests mutually exlusive and specify run options in makefile
+8c1dfc2 copy this->noise in assignment operator overload
+89e14c7 Add array of animal objects, allocated, and then free them one by one
+105a78c check to verify deep copy
+e5d529b write Brain class and add to Animal class, use deep copy in the class constructors.
+55dd7db Make ScavTrap specific attack() function and call it from DiamondTrap
+7718976 compile basic DiamondTrap class using virtual base class and multiple inheritance
+2875c10 complete cpp04 ex00 intro polymorphism exercise
+057eab4 cpp03 format Makefiles and add copy constructor and assignment overload for Node class
+d7ab827 define class FragTrap
+dbdf610 completed inheritence exercise
+76490c4 remove duplicated checkExist function and trim unecessary code from number_name() cpp03 ex00 & ex01
+33bc834 set up basic ScavTrap class for inheritence exercise
+5b88f72 add name adjustment to the copy constructor and assignment overload functions
+6b22693 Check if name exists and assign new number for name is so. Each new node is placed into a binary tree with unique name and node.
+8652eca add functions to check if name exists and number name if so
+2cb91ce Merge branch 'master' of https://github.com/pierremigeon/learn_some_c-
+74a543a Add binary tree add() and search() functions, search for ClapTrap on the basis of string name and perform attack on the named ClapTrap object
+1b326bc create HeadPoint class to be static pointer to head, i.e. smart pointer emulator
+af17deb add tree node
+de8b892 protect header files
+585a392 Update README.md
+57097f5 Update README.md
+b5762a1 write all base functions for ClapTrap cpp03 ex00
+6a4a2e3 write basic class and functions for cpp03 ex00
+ef8090b Add count of total objects for Point class and id each object
+35ad1be moved average function to Point class and debugged
+447e73d sketch out bsp function
+9956480 Write Point class and functions
+e1d6616 return copy of original FixPoint from post-increment and add test main2.cpp
+b6df841 add pre/post incremement and pre/post decrement overload functions
+14cbace pass FixPoint by reference not by copy for +-*/ operator function overload
+f7cdf2e write + - * / functions and basic tests for FP/int/double comparisons cpp02 ex02
+cae9941 complete min/max for const/non-const input using static functions and write basic tests in main cpp002 ex02
+36374b8 write basic min and max functions, learn static functions
+2269799 add 6 operator overloads and tests for >,>=,<, <=, ==, != for all double/FP/int comparisons cpp02 ex02
+91609a4 implement == and != operator overloads for FixedPoint class, cpp02 ex02
+8ac7ed4 polish cpp02 ex01 functions
+e9d7ecf tests given in syllabus now passing
+3b994d8 Set up basic float->FP and FP->float logic
+1b863e6 convert ints to fixed point representation and convert back to int representation
+c88972e implement example << operator in sandbox and implement this in cpp02 ex01
+7a1f88f sketch out new function requirements in *.hpp files for cpp02 ex01 and ex02
+9a30add cpp02 ex00 completed
+4bcf3f6 cpp02 ex00 groundwork laid, compiles but not as specified yet
+536c5df Move function pointer array and typedef into class definition. Reformat output
+a6ea010 Make Harl functional cpp01 ex05
+1f80a71 define functions and class for Harl
+b9933b1 make program functional
+72a2624 write basic program with general scheme of functionality present, no testing
+d4c3d70 cpp01 ex01 add llist-> announce() and delete functions, freeing allocated space
+78e9aac finish cpp01 ex01
+66133d6 remove const, opt for copies rather than pointers/references were appropriate, generally finalize everything and update object constructor assignment syntax
+3bb72e8 update internal object variable to this-> idiom
+a29c098 working version of cpp01 ex03
+8f775a4 Work on cp01 ex03
+9576c37 finish day 1 exercise 2, references and pointers
+51f0ec9 add double protect to header files
+108c150 start cpp01 ex01 and ex02
+eaafadb Near completion for ex00
+97042f7 Add files for cpp00/ex02 and start cpp01/ex00
+2bb2cd2 move update entry function to contact class to increase number of private variables
+c10560f Complete entry add functionality. All requirements met
+2581541 convert text to uppercase so user input can be written either upper or lower case
+9677671 Initialize phonebook entry within the phonebook class
+30e1ad3 Write table creation function and take user input for index and entry search
+b83f4f1 develop most of search function
+6361b9d Define phonebook and contact classes with outline of all variables and functions they use and include header in the main
+2c9b44f write basic functional main() for phonebook program in ex01
+81ddace add image to readme
+dc3e1f6 day 1 exercise 1
+aa6e1db First cpp program- Hello World
+2c5313e write readme
