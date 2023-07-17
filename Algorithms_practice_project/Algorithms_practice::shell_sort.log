@@ -1,0 +1,13 @@
+dab6fb8 complete shell sort in cpp
+0782b11 re-write simpler solution to selection sort
+b05579c Write selection sort
+5c32755 wrote insertion sort
+1ee3741 wrote cpp bubblesort
+317f870 debug heapsort, make sort correctly
+1f67be0 make heapsort functional. One bug remains
+b739055 write basic functions. Make compiles but does not sort yet
+2ce1c8a Set up repository
+03a45e0 bubblesort
+b30ee59 bubblesort
+3133860 added quicksort
+2dd781e merge sort
