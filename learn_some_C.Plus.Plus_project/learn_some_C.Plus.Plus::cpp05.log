@@ -1,3 +1,4 @@
+ac43b50 changed grade from unsigned int to int
 2406ac6 capture exception for out of bounds grade (toolow/toohigh), catchable with try and catch blocks
 b840551 define bureaucrat class and impliment most functions
 0d046d4 Set up basis for exercise cpp04 ex03
