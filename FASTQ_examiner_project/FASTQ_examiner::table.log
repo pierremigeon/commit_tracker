@@ -1,3 +1,4 @@
+36700cd correct error in run_test.sh and update gitignore file
 e2ab9a3 fix unrecognized src module error, make ./src a module
 f408f46 Remove aliasing from dependency script
 97ae5f4 switch conditional logical to correct flow
