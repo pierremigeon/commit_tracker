@@ -1,3 +1,4 @@
+4648b0d make test files and update run_test.sh
 08d0088 Draft sequence_file class
 9e1862c Refactor put_in_struct() function and remove comments
 57133f6 Add no visual (-nv) option flag to suppress graphical output
