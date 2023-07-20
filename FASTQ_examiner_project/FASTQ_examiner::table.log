@@ -1,3 +1,4 @@
+c55ed63 update tests 1-8 now more or less functional, although not sure all of them pass
 36700cd correct error in run_test.sh and update gitignore file
 e2ab9a3 fix unrecognized src module error, make ./src a module
 f408f46 Remove aliasing from dependency script
