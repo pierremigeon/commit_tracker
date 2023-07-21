@@ -1,3 +1,4 @@
+120b136 Update demo information to include checK_dependencies.sh
 6ed8c38 Update README to reflect current status of demo tests
 6889c84 Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
 c55ed63 update tests 1-8 now more or less functional, although not sure all of them pass
