@@ -1,3 +1,4 @@
+cf4dffb sketch out BFS implementing a linkedlist queue and split into files
 30d0abe write binary tree methods and implement inorder binary search/print
 dab6fb8 complete shell sort in cpp
 0782b11 re-write simpler solution to selection sort
