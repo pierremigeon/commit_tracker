@@ -1,3 +1,4 @@
+3b08115 using delete, free the queue elements and free the binary tree elements
 7cec1fa Make BFS somewhat functional
 f1dd15d separate BFS functions, tree creation/in order traversal, and treeNode functions and implement the functions
 cf4dffb sketch out BFS implementing a linkedlist queue and split into files
