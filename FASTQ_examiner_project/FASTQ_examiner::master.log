@@ -1,3 +1,6 @@
+048f712 change -i option flag to -f
+b393a64 Merge branch 'table'
+f6b0006 use prettytable package to create table, and include each file as a row instead of creating a table for each file
 120b136 Update demo information to include checK_dependencies.sh
 6ed8c38 Update README to reflect current status of demo tests
 6889c84 Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
