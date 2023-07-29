@@ -1,3 +1,4 @@
+72dbe19 correct option 2 of the run_test.sh file
 011d1ee resolve merge conflict
 c99823e transpose the table so that files are columns and rows are the variables. Update to include numbers of different reads
 048f712 change -i option flag to -f
