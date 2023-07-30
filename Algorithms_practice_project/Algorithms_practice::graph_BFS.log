@@ -1,4 +1,4 @@
-5f9c78f organize the three major classes for project and fix all compiler errors
+0a0339b organize the three major classes for project and fix all compiler errors
 cc71061 make separate function and header files for treeNodes, linklist nodes, and graph nodes
 243d946 write graph and linked list functions, sketch all accersory functions outside of main algorithm
 dab6fb8 complete shell sort in cpp
