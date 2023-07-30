@@ -1,4 +1,4 @@
-0a0339b organize the three major classes for project and fix all compiler errors
+e763b43 Check if name exists and assign new number for name is so. Each new node is placed into a binary tree with unique name and node.
 cc71061 make separate function and header files for treeNodes, linklist nodes, and graph nodes
 243d946 write graph and linked list functions, sketch all accersory functions outside of main algorithm
 dab6fb8 complete shell sort in cpp
