@@ -1,3 +1,4 @@
+0e63a4a make ll shift function work and write 2 list printer debug function
 4ba5bc0 debug linkedlist functions
 2cee13f Merge branch 'graph_BFS'
 e763b43 Check if name exists and assign new number for name is so. Each new node is placed into a binary tree with unique name and node.
