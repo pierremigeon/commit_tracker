@@ -1,3 +1,18 @@
+4ba5bc0 debug linkedlist functions
+2cee13f Merge branch 'graph_BFS'
+e763b43 Check if name exists and assign new number for name is so. Each new node is placed into a binary tree with unique name and node.
+cc71061 make separate function and header files for treeNodes, linklist nodes, and graph nodes
+3b08115 using delete, free the queue elements and free the binary tree elements
+7cec1fa Make BFS somewhat functional
+f1dd15d separate BFS functions, tree creation/in order traversal, and treeNode functions and implement the functions
+cf4dffb sketch out BFS implementing a linkedlist queue and split into files
+30d0abe write binary tree methods and implement inorder binary search/print
+243d946 write graph and linked list functions, sketch all accersory functions outside of main algorithm
+dab6fb8 complete shell sort in cpp
+0782b11 re-write simpler solution to selection sort
+b05579c Write selection sort
+5c32755 wrote insertion sort
+1ee3741 wrote cpp bubblesort
 317f870 debug heapsort, make sort correctly
 1f67be0 make heapsort functional. One bug remains
 b739055 write basic functions. Make compiles but does not sort yet
