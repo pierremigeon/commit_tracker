@@ -1,3 +1,4 @@
+64d6fb8 make pop operation functional
 0e63a4a make ll shift function work and write 2 list printer debug function
 4ba5bc0 debug linkedlist functions
 2cee13f Merge branch 'graph_BFS'
