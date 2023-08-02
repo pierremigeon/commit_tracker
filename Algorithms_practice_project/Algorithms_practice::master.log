@@ -1,3 +1,4 @@
+e0ea26c sketch out linked list cache and associated functions
 64d6fb8 make pop operation functional
 0e63a4a make ll shift function work and write 2 list printer debug function
 4ba5bc0 debug linkedlist functions
