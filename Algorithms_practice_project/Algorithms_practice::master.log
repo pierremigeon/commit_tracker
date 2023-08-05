@@ -1,3 +1,4 @@
+718ed8f remove old/unused checkCache function
 2fa8e80 protect shift function against NULL pointer
 0201681 refactor compareNodes()
 cd3555d update graphify funciton and graphnode class, debug some comparisons in the treeNode class functions
