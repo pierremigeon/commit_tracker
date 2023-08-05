@@ -1,3 +1,4 @@
+2fa8e80 protect shift function against NULL pointer
 0201681 refactor compareNodes()
 cd3555d update graphify funciton and graphnode class, debug some comparisons in the treeNode class functions
 d66fd5f write module to check new lists (in a graph node) against a binary tree cache and indicate if found else add to the binary tree cache
