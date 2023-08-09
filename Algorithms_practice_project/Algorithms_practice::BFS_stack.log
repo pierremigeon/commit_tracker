@@ -1,3 +1,4 @@
+1b83dc9 protect against sorted nodes
 248495a check for repeated list sequences before creating new lists, thus reducing system calls with new
 0a45c1a make graph construction iterative by using a stack
 2fa8e80 protect shift function against NULL pointer
