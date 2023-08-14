@@ -1,3 +1,4 @@
+54426e1 split DFS functions into own header file
 b2d5ede make iterative DFS work with trees with left branches
 382a608 make DFS iterative approach work
 36e963a update iterative DFS
