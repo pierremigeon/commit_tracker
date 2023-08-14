@@ -1,3 +1,4 @@
+36e963a update iterative DFS
 bf076a0 make traversal stack based
 c9b5f30 add linkedlist portion and write iterative in order DFS traversal function
 9716bc5 write tranversal functions for pre/in/post order traversal
