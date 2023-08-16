@@ -1,3 +1,4 @@
+2c53d4d make accept files without -f1/-f2 flags
 c99823e transpose the table so that files are columns and rows are the variables. Update to include numbers of different reads
 f6b0006 use prettytable package to create table, and include each file as a row instead of creating a table for each file
 c55ed63 update tests 1-8 now more or less functional, although not sure all of them pass
