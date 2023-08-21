@@ -65,6 +65,7 @@ awk '{print NR}' totals.data > totals.tmp
 paste totals.tmp totals.data | cut -f1,4-10 > totals.2.tmp
 echo -e "Number\t$header" > totals.data
 cat totals.2.tmp >> totals.data
+python ./src/sparsify_totals.py
 
 #clean up temp files
 mv README.tmp README.md
