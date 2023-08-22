@@ -18,4 +18,6 @@ for date in missed:
 
 totals.sort_values(by='Date', inplace=True)
 
+out = open("./totals.data", 'w')
+out.write(totals.to_csv(index=False, sep='\t'))
 

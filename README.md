@@ -17,14 +17,14 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | # Commits | # Branches | Branches Merged
 :---|:---:|:---:|:---:|:---:
-[commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  2023-08-20  |  293  |  1   |  100%  (1/1)
-[FASTQ_examiner](https://github.com/pierremigeon/FASTQ_examiner)                                    |  2023-08-16  |  80   |  5   |  60%   (3/5)
-[Algorithms_practice](https://github.com/pierremigeon/Algorithms_practice)                          |  2023-08-14  |  41   |  10  |  90%   (9/10)
+[commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  8           |  295  |  1   |  100%  (1/1)
+[minishell](https://github.com/pierremigeon/minishell)                                              |  6           |  78   |  8   |  88%   (7/8)
+[ft_printf](https://github.com/pierremigeon/ft_printf)                                              |  29          |  37   |  2   |  100%  (2/2)
 [learn_some_C.Plus.Plus](https://github.com/pierremigeon/learn_some_C.Plus.Plus)                    |  2023-07-17  |  79   |  2   |  50%   (1/2)
-[libft](https://github.com/pierremigeon/libft)                                                      |  2023-06-05  |  30   |  2   |  50%   (1/2)
-[ft_printf](https://github.com/pierremigeon/ft_printf)                                              |  2023-06-01  |  37   |  2   |  100%  (2/2)
-[minishell](https://github.com/pierremigeon/minishell)                                              |  2023-05-20  |  78   |  8   |  88%   (7/8)
-[test_non-fastforward_merge-push](https://github.com/pierremigeon/test_non-fastforward_merge-push)  |  2023-01-27  |  15   |  2   |  50%   (1/2)
+[FASTQ_examiner](https://github.com/pierremigeon/FASTQ_examiner)                                    |  14          |  80   |  5   |  60%   (3/5)
+[Algorithms_practice](https://github.com/pierremigeon/Algorithms_practice)                          |  115         |  41   |  10  |  90%   (9/10)
+[test_non-fastforward_merge-push](https://github.com/pierremigeon/test_non-fastforward_merge-push)  |  10          |  15   |  2   |  50%   (1/2)
+[libft](https://github.com/pierremigeon/libft)                                                      |  0           |  30   |  2   |  50%   (1/2)
 
 [comment]: # (This is where the table ends)
 

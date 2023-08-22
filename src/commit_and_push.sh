@@ -5,7 +5,7 @@ cd ..
 #Create Summary Table for commit statistics
 base="$(pwd | rev | cut -f 1 -d / | rev)_project"
 file_name="$(pwd | rev | cut -f 1 -d / | rev)::$(git branch | grep \* | sed s/\*\ //).data";
-header="Commit_id\tDate\t\tFiles\tInsert\tDelete\tSum"
+header="Commit_id\tDate\tFiles\tInsert\tDelete\tSum"
 id1='file'; 
 id2='+'; 
 id3='-';
@@ -13,15 +13,15 @@ i=$(git log --oneline | awk '{print $1}' | wc -l | sed 's/[^0-9]//g');
 echo -e "Commit_num\t$header" > ./${base}/${file_name};
 while : ; do
 	for id in $(git log --oneline | awk '{print $1}'); do 
-		data=$(echo $(git show $id --stat | tail -n1) | tr ',' '\n');
-		echo -ne $i "\t\t" >> ./${base}/${file_name};
-		echo -ne "$id\t\t" >> ./${base}/${file_name};
-		echo -ne $(git show -s --format=%ci $id | sed 's/\ .*//g') "\t" >> ./${base}/${file_name};
 		array=();
-		array[0]=$(echo $(grep "$id1" <<< "$data" || echo 0) | sed 's/[^0-9]//g');
-		array[1]=$(echo $(grep [$id2] <<< "$data" || echo 0) | sed 's/[^0-9]//g');
-		array[2]=$(echo $(grep [$id3] <<< "$data" || echo 0) | sed 's/[^0-9]//g');
-		array[3]=$(echo ${array[1]} + ${array[2]} | bc); 
+		array[0]=$i
+		array[1]=$id
+		array[2]=$(git show -s --format=%ci $id | sed 's/\ .*//g')
+		data=$(echo $(git show $id --stat | tail -n1) | tr ',' '\n');
+		array[3]=$(echo $(grep "$id1" <<< "$data" || echo 0) | sed 's/[^0-9]//g');
+		array[4]=$(echo $(grep [$id2] <<< "$data" || echo 0) | sed 's/[^0-9]//g');
+		array[5]=$(echo $(grep [$id3] <<< "$data" || echo 0) | sed 's/[^0-9]//g');
+		array[6]=$(echo ${array[4]} + ${array[5]} | bc); 
 		echo ${array[@]} | tr ' ' '\t' >> ./${base}/${file_name};
 		i=$((i - 1));
 	done;
@@ -30,7 +30,7 @@ while : ; do
 done;
 
 #create graph for commit_tracker project
-Rscript ./commit_tracker_project/graph.R 
+#Rscript ./commit_tracker_project/graph.R 
 
 #Create table of all projects tracked in this repo
 echo -n > projects_names_list.tmp
@@ -65,14 +65,14 @@ awk '{print NR}' totals.data > totals.tmp
 paste totals.tmp totals.data | cut -f1,4-10 > totals.2.tmp
 echo -e "Number\t$header" > totals.data
 cat totals.2.tmp >> totals.data
-python ./src/sparsify_totals.py
+#python3 ./src/sparsify_totals.py
 
 #clean up temp files
 mv README.tmp README.md
 rm *tmp
 
 #Create graph of all tracked commits
-Rscript ./src/graph.R 
+#Rscript ./src/graph.R 
 
 #create log files, commit updates and push the commit tracker directory 
 git log --oneline > ./${base}/$(pwd | rev | cut -f 1 -d / | rev).log
