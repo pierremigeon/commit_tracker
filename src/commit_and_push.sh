@@ -58,7 +58,7 @@ mv projects_summary2.tmp projects_summary.tmp
 python ./src/update_readme_table.py
 
 #Generate total commit data for all combined tracked projects
-cat ./*_project/*data | grep -v Commit_num > totals.data
+cat ./*_project/*data | grep -v Commit_num | tr '\t' ' ' | tr -s ' ' | tr ' ' '\t' > totals.data
 sort totals.data | uniq > totals.tmp
 sort -k 3 totals.tmp > totals.data
 awk '{print NR}' totals.data > totals.tmp
