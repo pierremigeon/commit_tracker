@@ -62,17 +62,17 @@ cat ./*_project/*data | grep -v Commit_num | tr '\t' ' ' | tr -s ' ' | tr ' ' '\
 sort totals.data | uniq > totals.tmp
 sort -k 3 totals.tmp > totals.data
 awk '{print NR}' totals.data > totals.tmp
-paste totals.tmp totals.data | cut -f1,4-10 > totals.2.tmp
+paste totals.tmp totals.data | cut -f 1,3-8 > totals.2.tmp
 echo -e "Number\t$header" > totals.data
 cat totals.2.tmp >> totals.data
-#python3 ./src/sparsify_totals.py
+python3 ./src/sparsify_totals.py
 
 #clean up temp files
 mv README.tmp README.md
 rm *tmp
 
 #Create graph of all tracked commits
-#Rscript ./src/graph.R 
+Rscript ./src/graph.R 
 
 #create log files, commit updates and push the commit tracker directory 
 git log --oneline > ./${base}/$(pwd | rev | cut -f 1 -d / | rev).log
