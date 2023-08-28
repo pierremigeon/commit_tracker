@@ -1,3 +1,4 @@
+228969a remove duplicates / truncated duplicates, retain longest file
 011bc6e remove repeated files
 3939a96 make test w/ 4 positional inputs work
 2c53d4d make accept files without -f1/-f2 flags
