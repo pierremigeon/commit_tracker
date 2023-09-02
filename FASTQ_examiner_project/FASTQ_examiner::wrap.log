@@ -1,3 +1,4 @@
+fef16bf handle wrapped reads
 247dac6 fix beginning error line bug
 adad837 merge in table
 228969a remove duplicates / truncated duplicates, retain longest file
