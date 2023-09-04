@@ -1,3 +1,9 @@
+e7ee286 include total error free reads and report zero for paired read count if only one file
+9572043 Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
+6195fdc refactor and correct -f1/-f2/no flag options
+fef16bf handle wrapped reads
+247dac6 fix beginning error line bug
+f7ba0a8 Update README.md
 adad837 merge in table
 228969a remove duplicates / truncated duplicates, retain longest file
 011bc6e remove repeated files
