@@ -1,3 +1,4 @@
+94443db complete basic algorithm
 8d95229 pseudocode for sorting algo
 be3dddb setup base for quicksort
 54426e1 split DFS functions into own header file
