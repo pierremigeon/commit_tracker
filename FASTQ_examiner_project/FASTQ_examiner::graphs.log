@@ -1,5 +1,9 @@
+806c098 update Readme
+c4b56ff Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner into graphs
 2593eb0 write new tests for error, leafed, wrapped
+60b3c2d Update README.md
 e7ee286 include total error free reads and report zero for paired read count if only one file
+3ad3020 Update README.md
 9572043 Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
 6195fdc refactor and correct -f1/-f2/no flag options
 fef16bf handle wrapped reads

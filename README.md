@@ -17,9 +17,9 @@ ProjectName::BranchName.data
 
 Project Name | Last Updated | # Commits | # Branches | Branches Merged
 :---|:---:|:---:|:---:|:---:
-[FASTQ_examiner](https://github.com/pierremigeon/FASTQ_examiner)                                    |  2023-09-09  |  92   |  7   |  71%   (5/7)
+[FASTQ_examiner](https://github.com/pierremigeon/FASTQ_examiner)                                    |  2023-09-10  |  96   |  7   |  71%   (5/7)
+[commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  2023-09-10  |  317  |  1   |  100%  (1/1)
 [Algorithms_practice](https://github.com/pierremigeon/Algorithms_practice)                          |  2023-09-08  |  46   |  11  |  82%   (9/11)
-[commit_tracker](https://github.com/pierremigeon/commit_tracker)                                    |  2023-09-08  |  316  |  1   |  100%  (1/1)
 [learn_some_C.Plus.Plus](https://github.com/pierremigeon/learn_some_C.Plus.Plus)                    |  2023-07-17  |  79   |  2   |  50%   (1/2)
 [libft](https://github.com/pierremigeon/libft)                                                      |  2023-06-05  |  30   |  2   |  50%   (1/2)
 [ft_printf](https://github.com/pierremigeon/ft_printf)                                              |  2023-06-01  |  37   |  2   |  100%  (2/2)
