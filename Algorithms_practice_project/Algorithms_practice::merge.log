@@ -1,0 +1,47 @@
+58c81ed set up mergefile directory
+c8c0dc3 debug algorithm
+d44be4c resolve compiler errors
+94443db complete basic algorithm
+8d95229 pseudocode for sorting algo
+be3dddb setup base for quicksort
+54426e1 split DFS functions into own header file
+b2d5ede make iterative DFS work with trees with left branches
+382a608 make DFS iterative approach work
+36e963a update iterative DFS
+bf076a0 make traversal stack based
+c9b5f30 add linkedlist portion and write iterative in order DFS traversal function
+9716bc5 write tranversal functions for pre/in/post order traversal
+028143e wrote basic DFS algorithm
+1b83dc9 protect against sorted nodes
+248495a check for repeated list sequences before creating new lists, thus reducing system calls with new
+0a45c1a make graph construction iterative by using a stack
+2fa8e80 protect shift function against NULL pointer
+0201681 refactor compareNodes()
+cd3555d update graphify funciton and graphnode class, debug some comparisons in the treeNode class functions
+d66fd5f write module to check new lists (in a graph node) against a binary tree cache and indicate if found else add to the binary tree cache
+e0ea26c sketch out linked list cache and associated functions
+64d6fb8 make pop operation functional
+0e63a4a make ll shift function work and write 2 list printer debug function
+4ba5bc0 debug linkedlist functions
+2cee13f Merge branch 'graph_BFS'
+e763b43 Check if name exists and assign new number for name is so. Each new node is placed into a binary tree with unique name and node.
+cc71061 make separate function and header files for treeNodes, linklist nodes, and graph nodes
+3b08115 using delete, free the queue elements and free the binary tree elements
+7cec1fa Make BFS somewhat functional
+f1dd15d separate BFS functions, tree creation/in order traversal, and treeNode functions and implement the functions
+cf4dffb sketch out BFS implementing a linkedlist queue and split into files
+30d0abe write binary tree methods and implement inorder binary search/print
+243d946 write graph and linked list functions, sketch all accersory functions outside of main algorithm
+dab6fb8 complete shell sort in cpp
+0782b11 re-write simpler solution to selection sort
+b05579c Write selection sort
+5c32755 wrote insertion sort
+1ee3741 wrote cpp bubblesort
+317f870 debug heapsort, make sort correctly
+1f67be0 make heapsort functional. One bug remains
+b739055 write basic functions. Make compiles but does not sort yet
+2ce1c8a Set up repository
+03a45e0 bubblesort
+b30ee59 bubblesort
+3133860 added quicksort
+2dd781e merge sort
