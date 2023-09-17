@@ -1,3 +1,4 @@
+1fae33d correctly report leafed files split into two as Forward and Reverse respectively
 275e549 accurately split interleaved
 806c098 update Readme
 c4b56ff Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner into graphs
