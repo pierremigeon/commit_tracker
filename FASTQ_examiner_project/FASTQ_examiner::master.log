@@ -1,3 +1,4 @@
+64894a9 adding seqs[0] dictionary split for leafed files
 1fae33d correctly report leafed files split into two as Forward and Reverse respectively
 275e549 accurately split interleaved
 806c098 update Readme
