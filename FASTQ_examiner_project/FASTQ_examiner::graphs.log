@@ -1,3 +1,4 @@
+b05fc5d start graphing quality distrib / base
 806c098 update Readme
 c4b56ff Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner into graphs
 2593eb0 write new tests for error, leafed, wrapped
