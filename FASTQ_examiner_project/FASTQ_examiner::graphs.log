@@ -1,3 +1,4 @@
+eb3dcf0 start setup to sum quality / base over all files
 b44e0c8 graph data correctly using boxplot no outliers
 3c8a0bb started creating boxplot function
 aaa0d78 advance development for graphing quality range by base functions
