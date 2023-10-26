@@ -1,3 +1,4 @@
+9cf6ea4 adjust indices to correctly capture data into matrix
 c273e13 finish cumulative graph
 eb3dcf0 start setup to sum quality / base over all files
 b44e0c8 graph data correctly using boxplot no outliers
