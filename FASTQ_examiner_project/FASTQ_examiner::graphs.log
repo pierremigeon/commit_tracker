@@ -1,3 +1,4 @@
+186e0ea pass t_sum not sum to final cumulative graph
 a7eff3a adjust length of plot dynamically based on length of input and switch to axis object parameter specifications
 fe8019a update figure layout
 9cf6ea4 adjust indices to correctly capture data into matrix
