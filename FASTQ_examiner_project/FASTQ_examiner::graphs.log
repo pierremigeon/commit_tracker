@@ -1,3 +1,4 @@
+092ad73 refactored
 e4be3d6 pad arrays before attempting to stack
 dc66cda handle different sizes of reads in input data when combining arrays of reads
 186e0ea pass t_sum not sum to final cumulative graph
