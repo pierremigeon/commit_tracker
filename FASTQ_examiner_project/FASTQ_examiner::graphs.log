@@ -1,3 +1,4 @@
+8615e65 add section to graph aggregated paired files
 092ad73 refactored
 e4be3d6 pad arrays before attempting to stack
 dc66cda handle different sizes of reads in input data when combining arrays of reads
