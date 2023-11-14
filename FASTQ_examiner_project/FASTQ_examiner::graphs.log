@@ -1,3 +1,4 @@
+d9cc8aa for the quality by base graphs remove extraneous list from paired array, only print paired graphs if they will be different from the sum total graph
 8615e65 add section to graph aggregated paired files
 092ad73 refactored
 e4be3d6 pad arrays before attempting to stack
