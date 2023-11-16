@@ -1,3 +1,4 @@
+bdc6174 establish new test case
 c36425c Correctly label the pair graphs, and only display if they will be distinct from the cumulative graph
 d9cc8aa for the quality by base graphs remove extraneous list from paired array, only print paired graphs if they will be different from the sum total graph
 8615e65 add section to graph aggregated paired files
