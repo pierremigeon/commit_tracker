@@ -1,4 +1,25 @@
+0be54ee echo all tests
+d0b096b Merge branch 'master' into graphs making most recent graphs branch the latest
 88eec66 merge
+09eceec multiple mixed pair and unpaired test
+89620d4 print pairwise graph in the case of one pair and one unpaired
+bdc6174 establish new test case
+c36425c Correctly label the pair graphs, and only display if they will be distinct from the cumulative graph
+d9cc8aa for the quality by base graphs remove extraneous list from paired array, only print paired graphs if they will be different from the sum total graph
+8615e65 add section to graph aggregated paired files
+092ad73 refactored
+e4be3d6 pad arrays before attempting to stack
+dc66cda handle different sizes of reads in input data when combining arrays of reads
+186e0ea pass t_sum not sum to final cumulative graph
+a7eff3a adjust length of plot dynamically based on length of input and switch to axis object parameter specifications
+fe8019a update figure layout
+9cf6ea4 adjust indices to correctly capture data into matrix
+c273e13 finish cumulative graph
+eb3dcf0 start setup to sum quality / base over all files
+b44e0c8 graph data correctly using boxplot no outliers
+3c8a0bb started creating boxplot function
+aaa0d78 advance development for graphing quality range by base functions
+b05fc5d start graphing quality distrib / base
 76b2fde save the debugging for later
 214b949 correctly identify singletons from leafed files
 64894a9 adding seqs[0] dictionary split for leafed files
