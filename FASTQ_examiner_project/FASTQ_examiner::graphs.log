@@ -1,3 +1,6 @@
+05edb77 remove extra line
+d0b096b Merge branch 'master' into graphs making most recent graphs branch the latest
+88eec66 merge
 09eceec multiple mixed pair and unpaired test
 89620d4 print pairwise graph in the case of one pair and one unpaired
 bdc6174 establish new test case
@@ -17,6 +20,11 @@ b44e0c8 graph data correctly using boxplot no outliers
 3c8a0bb started creating boxplot function
 aaa0d78 advance development for graphing quality range by base functions
 b05fc5d start graphing quality distrib / base
+76b2fde save the debugging for later
+214b949 correctly identify singletons from leafed files
+64894a9 adding seqs[0] dictionary split for leafed files
+1fae33d correctly report leafed files split into two as Forward and Reverse respectively
+275e549 accurately split interleaved
 806c098 update Readme
 c4b56ff Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner into graphs
 2593eb0 write new tests for error, leafed, wrapped
