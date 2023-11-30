@@ -1,0 +1,130 @@
+0a4770a Determine total basepairs in file and add to table
+e857f2e Update run_tests and include full graphical output
+367cc2e Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
+16d3c7b Update README.md
+acd4c47 echo before run command
+631ba90 Merge branch 'graphs'
+05edb77 remove extra line
+0be54ee echo all tests
+d0b096b Merge branch 'master' into graphs making most recent graphs branch the latest
+88eec66 merge
+09eceec multiple mixed pair and unpaired test
+89620d4 print pairwise graph in the case of one pair and one unpaired
+bdc6174 establish new test case
+c36425c Correctly label the pair graphs, and only display if they will be distinct from the cumulative graph
+d9cc8aa for the quality by base graphs remove extraneous list from paired array, only print paired graphs if they will be different from the sum total graph
+8615e65 add section to graph aggregated paired files
+092ad73 refactored
+e4be3d6 pad arrays before attempting to stack
+dc66cda handle different sizes of reads in input data when combining arrays of reads
+186e0ea pass t_sum not sum to final cumulative graph
+a7eff3a adjust length of plot dynamically based on length of input and switch to axis object parameter specifications
+fe8019a update figure layout
+9cf6ea4 adjust indices to correctly capture data into matrix
+c273e13 finish cumulative graph
+eb3dcf0 start setup to sum quality / base over all files
+b44e0c8 graph data correctly using boxplot no outliers
+3c8a0bb started creating boxplot function
+aaa0d78 advance development for graphing quality range by base functions
+b05fc5d start graphing quality distrib / base
+76b2fde save the debugging for later
+214b949 correctly identify singletons from leafed files
+64894a9 adding seqs[0] dictionary split for leafed files
+1fae33d correctly report leafed files split into two as Forward and Reverse respectively
+275e549 accurately split interleaved
+806c098 update Readme
+c4b56ff Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner into graphs
+2593eb0 write new tests for error, leafed, wrapped
+60b3c2d Update README.md
+e7ee286 include total error free reads and report zero for paired read count if only one file
+3ad3020 Update README.md
+9572043 Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
+6195fdc refactor and correct -f1/-f2/no flag options
+fef16bf handle wrapped reads
+247dac6 fix beginning error line bug
+f7ba0a8 Update README.md
+adad837 merge in table
+228969a remove duplicates / truncated duplicates, retain longest file
+011bc6e remove repeated files
+3939a96 make test w/ 4 positional inputs work
+2c53d4d make accept files without -f1/-f2 flags
+72dbe19 correct option 2 of the run_test.sh file
+011d1ee resolve merge conflict
+c99823e transpose the table so that files are columns and rows are the variables. Update to include numbers of different reads
+048f712 change -i option flag to -f
+b393a64 Merge branch 'table'
+f6b0006 use prettytable package to create table, and include each file as a row instead of creating a table for each file
+120b136 Update demo information to include checK_dependencies.sh
+6ed8c38 Update README to reflect current status of demo tests
+6889c84 Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
+c55ed63 update tests 1-8 now more or less functional, although not sure all of them pass
+75a822c Update README.md
+36700cd correct error in run_test.sh and update gitignore file
+e2ab9a3 fix unrecognized src module error, make ./src a module
+f408f46 Remove aliasing from dependency script
+97ae5f4 switch conditional logical to correct flow
+b5738c0 Source file from subshell to run check_dependencies.sh and minor reformat
+44d2679 Create script to install python package dependencies
+10bf4ae Create summary table branch and module file, sketch out some basic statistics table
+9e1862c Refactor put_in_struct() function and remove comments
+57133f6 Add no visual (-nv) option flag to suppress graphical output
+533d967 subtract middle pointer when remove error read from the lines array, and account for start and end edges when labelling read sets as paired vs unpaired
+d74ed7c prepare test data for different error cases
+5c83db5 write script to wrap reads to certain lengths for testing
+afaa764 prepare testing data for wrapped files and add wrap tests to bash script
+113b248 Create file specific output directory
+12ce4b9 start writing tests for specific input file types
+ad92e10 Adjust split_leafed() function to correctly split leafed array into forward and reverse read arrays, increment 'middle' index and include last element in array slice by using [start:] instead of [start:-1]
+fad0678 debug array split for forward and reverse reads
+1b4c706 Add function to insert forward reads into middle of array
+172bc33 add function to split interleafed file into two files in the seq array, forward and reverse respectively.
+c0443d8 Sketch out detecting leafed files and splitting them into two files, forward and reverse
+f8ff919 add interleaving output option functions
+cec11dd Fix bugs- add newlines to the end of joins for outputs and remove singletons from the final output files
+641adb5 Expand output functionality
+774a662 refactor output singletons and abstract to seperate new function
+932d9cb Add leaf option to output interleaved fastq post-processing
+46b416a Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
+2094008 remove singleton reads and output to corresponding file
+f27affa remove singleton reads and output to corresponding file
+2299b01 flesh out remove_singletons function
+dafc06a Sort seq files based on pairing, prepare to remove singletons and output to singleton file
+782c8e5 debug base header function and verify header error detection correct
+24b2fc3 Correct syntax and first round of debugging for expanded advanced header/seq line verification.
+caa9fdc Create functions for generating common substrings for + separator and headerlines and functions to detect these lines in the input file
+56622e6 Output erroneous reads into error read files
+b730715 remove empty files from seqs array and analyze N bases directly from the seqs array
+4574760 update error checking w/ check_error and is_error functions
+7f617ae debug downstream changes due to new read datastructure and debug removal of truncated reads
+09b2087 rework fastq parsing algorithm, remove initial format check module, and incorportate error checking into struct
+78bb89d refactor format check
+f07a656 testing commit characteristics data table
+8237fa4 Split program into src modules
+372783b Refactor, improve format and comments, organize code
+2acc9af Continue to improve %GC graphs, debug polish function so that it works correctly and correctly extends all ATCGN arrays to match length of the longest array
+ba7c7c4 Refactor %GC and debug
+56c075a Polish graphs, get %GC graph working
+2a7ddc1 debug until graphs start showing
+9694ca3 Update README.md
+468a08f Update README.md
+6733f00 Update README
+37f21ef testing inheritence and subclassing
+2356306 improve argparse help message
+3661499 reformat so code doesn't throw errors
+65e2b25 Update project status
+dbbed7c Update README.md
+0db3742 update README
+c662f2d updates
+17e368b updated readme
+7d02f6b updated readme
+62314b1 working on GC across length of read
+d0234dc working on GC across length of read
+b6bca59 readme
+d1c8043 made data structure for fastq storage, added length distrib graph
+75095a8 unwrapping and sanity checks
+a290ac9 updates
+33b672c started graph section
+5c3e72e first lines...
+ed5b859 early stages
+9abf864 Update README.md
+ae5eb16 Initial commit
