@@ -1,3 +1,4 @@
+0270577 round total base count appropriately and report Mb
 323c735 make function to round the total bases
 0a4770a Determine total basepairs in file and add to table
 e857f2e Update run_tests and include full graphical output
