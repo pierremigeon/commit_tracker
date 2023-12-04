@@ -1,3 +1,4 @@
+566ae3c length units to change to scientific notation above Tb, basic feature complete
 68428d4 Fix run_test.sh test # int comparison for -lt -2
 7f46089 update reporting units to include bp through Tb
 0270577 round total base count appropriately and report Mb
