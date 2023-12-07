@@ -1,10 +1,70 @@
+889b935 Report read length in table
+566ae3c length units to change to scientific notation above Tb, basic feature complete
+68428d4 Fix run_test.sh test # int comparison for -lt -2
+7f46089 update reporting units to include bp through Tb
+0270577 round total base count appropriately and report Mb
+323c735 make function to round the total bases
+0a4770a Determine total basepairs in file and add to table
+e857f2e Update run_tests and include full graphical output
+367cc2e Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
+16d3c7b Update README.md
+acd4c47 echo before run command
+631ba90 Merge branch 'graphs'
+05edb77 remove extra line
+0be54ee echo all tests
+d0b096b Merge branch 'master' into graphs making most recent graphs branch the latest
+88eec66 merge
+09eceec multiple mixed pair and unpaired test
+89620d4 print pairwise graph in the case of one pair and one unpaired
+bdc6174 establish new test case
+c36425c Correctly label the pair graphs, and only display if they will be distinct from the cumulative graph
+d9cc8aa for the quality by base graphs remove extraneous list from paired array, only print paired graphs if they will be different from the sum total graph
+8615e65 add section to graph aggregated paired files
+092ad73 refactored
+e4be3d6 pad arrays before attempting to stack
+dc66cda handle different sizes of reads in input data when combining arrays of reads
+186e0ea pass t_sum not sum to final cumulative graph
+a7eff3a adjust length of plot dynamically based on length of input and switch to axis object parameter specifications
+fe8019a update figure layout
+9cf6ea4 adjust indices to correctly capture data into matrix
+c273e13 finish cumulative graph
+eb3dcf0 start setup to sum quality / base over all files
+b44e0c8 graph data correctly using boxplot no outliers
+3c8a0bb started creating boxplot function
+aaa0d78 advance development for graphing quality range by base functions
+b05fc5d start graphing quality distrib / base
+76b2fde save the debugging for later
+214b949 correctly identify singletons from leafed files
+64894a9 adding seqs[0] dictionary split for leafed files
+1fae33d correctly report leafed files split into two as Forward and Reverse respectively
+275e549 accurately split interleaved
+806c098 update Readme
+c4b56ff Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner into graphs
+2593eb0 write new tests for error, leafed, wrapped
+60b3c2d Update README.md
+e7ee286 include total error free reads and report zero for paired read count if only one file
+3ad3020 Update README.md
+9572043 Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
+6195fdc refactor and correct -f1/-f2/no flag options
+fef16bf handle wrapped reads
+247dac6 fix beginning error line bug
+f7ba0a8 Update README.md
+adad837 merge in table
 228969a remove duplicates / truncated duplicates, retain longest file
 011bc6e remove repeated files
 3939a96 make test w/ 4 positional inputs work
 2c53d4d make accept files without -f1/-f2 flags
+72dbe19 correct option 2 of the run_test.sh file
+011d1ee resolve merge conflict
 c99823e transpose the table so that files are columns and rows are the variables. Update to include numbers of different reads
+048f712 change -i option flag to -f
+b393a64 Merge branch 'table'
 f6b0006 use prettytable package to create table, and include each file as a row instead of creating a table for each file
+120b136 Update demo information to include checK_dependencies.sh
+6ed8c38 Update README to reflect current status of demo tests
+6889c84 Merge branch 'master' of https://github.com/pierremigeon/FASTQ_examiner
 c55ed63 update tests 1-8 now more or less functional, although not sure all of them pass
+75a822c Update README.md
 36700cd correct error in run_test.sh and update gitignore file
 e2ab9a3 fix unrecognized src module error, make ./src a module
 f408f46 Remove aliasing from dependency script
