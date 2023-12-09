@@ -1,3 +1,4 @@
+153864c refactor get_encoding()
 53361f7 Identify Phred encoding and include this information in table
 889b935 Report read length in table
 566ae3c length units to change to scientific notation above Tb, basic feature complete
