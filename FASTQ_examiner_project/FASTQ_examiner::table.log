@@ -1,3 +1,4 @@
+9ca6036 develop type determination functions
 b9d99fb Setup to determine fastq file version/type
 153864c refactor get_encoding()
 53361f7 Identify Phred encoding and include this information in table
