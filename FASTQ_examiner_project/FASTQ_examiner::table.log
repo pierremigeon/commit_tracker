@@ -1,3 +1,4 @@
+74e80a2 Determine read version format
 9ca6036 develop type determination functions
 b9d99fb Setup to determine fastq file version/type
 153864c refactor get_encoding()
