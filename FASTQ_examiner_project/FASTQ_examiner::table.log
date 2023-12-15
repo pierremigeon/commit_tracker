@@ -1,3 +1,4 @@
+e1176a5 Move calculation of version and encoding to table functions
 98b5c98 make dictionary to ID fastq format versions
 74e80a2 Determine read version format
 9ca6036 develop type determination functions
