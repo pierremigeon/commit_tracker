@@ -1,6 +1,11 @@
+db47dfc update env variables for email and password, and readme
+3c97d5d Merge branch 'main' of https://github.com/pierremigeon/youbloom_automation_scripts
 7873f0c update to tiktok code
 0256c18 remove pdb debugger
+a1b4e23 Merge pull request #1 from pierremigeon/master
+7efd45d Merge branch 'main' into master
 bdb544d readme
+c989f70 transfer automation scripts to your repo
 343333a Update setUpShow.py
 fde93f4 Add files via upload
 4328818 Initial commit
